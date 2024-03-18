@@ -54,6 +54,12 @@ body{
     margin: 0;
 }
 
+.card-login > p{
+    color: #fff;
+    font-weight: 600;
+    margin: 0;
+}
+
 .text-field{
     width: 100%;
     display: flex;
@@ -104,3 +110,4 @@ body{
 .img{
     width: 35vw;
 }
+
