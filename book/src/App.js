@@ -1,17 +1,12 @@
 import './App.css';
-import logo from './imagens/logo.svg'
+import Header from './componentes/header';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-Header">
-      <div className="logo">
-      <img src={logo}></img>
-      <p>Teste</p>
+    return (
+      <div className='App'>
+        <Header/>
       </div>
-      </header>
-    </div>
   );
 }
 
-export default App;
+export default App
